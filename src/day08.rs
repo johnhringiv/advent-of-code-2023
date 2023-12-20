@@ -2,7 +2,6 @@ use std::cmp::{max, min};
 use std::collections::HashMap;
 use advent_2023::load_data;
 
-#[derive(Copy, Clone, Debug)]
 struct Node<'a> {
     right: &'a str,
     left: &'a str,
