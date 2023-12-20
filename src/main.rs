@@ -6,10 +6,11 @@ mod day03;
 mod day04;
 mod day05;
 mod day06;
+mod day07;
 
 
 fn main() {
-    let days = [day01::day01, day02::day02, day03::day03, day04::day04, day05::day05, day06::day06];
+    let days = [day01::day01, day02::day02, day03::day03, day04::day04, day05::day05, day06::day06, day07::day07];
     println!(
         "{0: <3} | {1: <10} | {2: <10} | {3: <10}",
         "Day", "Part 1", "Part 2", "μs"
